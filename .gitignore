@@ -1,0 +1,21 @@
+# File types to ignore #
+########################
+
+*.sdf
+*.opensdf
+*.o
+*.ignoreCheck
+*.suo
+*.metadata
+Debug/
+Release/
+UniversalStoryRepo/
+ipch/
+GitIgnoreOriginalSoundFiles/
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
