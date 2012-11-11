@@ -1,0 +1,11 @@
+<!-- Defintion of strings used within the app -->
+<resources>
+
+    <string name="app_name">playground</string>
+    <string name="button_send">Send</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<!-- Definition of the styles in the game -->
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+</resources>

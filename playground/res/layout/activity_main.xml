@@ -1,0 +1,30 @@
+<!-- Definition of user interface -->
+
+<!-- Linear layout puts all elements contained within it as specified by android:orientation -->
+<!-- The first layout fills the entire screen -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="horizontal">
+
+    <!-- android:id 				- A unique identifier to be used by the view. -->
+    <!--							- Also used as a reference to be used within the app code -->
+    <!--							- @ - REquired when you are referring to any resource object from XML. This is followed by the resource type, / , resource name -->
+    <!--							- + - This is needed when you define a resource for the first time -->
+    <!--	 android:width 			- The width of the element -->
+    <!--	 android:height			- The height of the element -->
+    <!--	 android:hint			- A default string to display when the text field is empty -->
+    <!--	 android:layout_width 	- A numner that specifies the amount of remaining space each view should consume, relative to the amount consumed by sibling viws. -->
+    <EditText android:id="@+id/edit_message"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_message" />
+    
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+
+</LinearLayout>
